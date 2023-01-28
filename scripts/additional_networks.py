@@ -18,7 +18,7 @@ from scripts import lora_compvis
 MAX_MODEL_COUNT = 5
 LORA_MODEL_EXTS = ["pt", "ckpt", "safetensors"]
 lora_models = {}
-lora_models_dir = os.path.join(scripts.basedir(), "models/LoRA")
+lora_models_dir = os.path.join(scripts.basedir(), "models/lora")
 os.makedirs(lora_models_dir, exist_ok=True)
 
 
